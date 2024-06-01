@@ -10,4 +10,5 @@ const connect = async()=>{
     return db.collection("crud_mongo");
     
 }
-connect();
+
+module.exports = connect;
